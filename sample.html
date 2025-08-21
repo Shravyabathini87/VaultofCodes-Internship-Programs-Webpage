@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Programs</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #333;
+      text-align: center;
+    }
+
+    .logo {
+      margin-top: 30px;
+    }
+    .logo img {
+      width: 80px;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    h1 {
+      margin-top: 15px;
+      font-size: 2.2rem;
+      color: #1a237e;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      padding: 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      font-size: 1.2rem;
+    }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    .card ul li {
+      margin: 8px 0;
+      font-size: 0.95rem;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      color: white;
+    }
+
+    /* Theme Colors */
+    .web {
+      border-top: 6px solid #2196f3;
+    }
+    .web h3 { color: #0d47a1; }
+    .web .btn { background: #2196f3; }
+    .web .btn:hover { background: #1565c0; }
+
+    .app {
+      border-top: 6px solid #4caf50;
+    }
+    .app h3 { color: #1b5e20; }
+    .app .btn { background: #4caf50; }
+    .app .btn:hover { background: #2e7d32; }
+
+    .python {
+      border-top: 6px solid #fbc02d;
+    }
+    .python h3 { color: #e65100; }
+    .python .btn { background: #fbc02d; color: #333; }
+    .python .btn:hover { background: #f9a825; color: #000; }
+
+    .java {
+      border-top: 6px solid #f44336;
+    }
+    .java h3 { color: #b71c1c; }
+    .java .btn { background: #f44336; }
+    .java .btn:hover { background: #c62828; }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <div class="logo">
+    <img src="https://vaultofcodes.com/favicon.ico" alt="VaultofCodes Logo">
+  </div>
+
+  <!-- Title -->
+  <h1>Internship Programs</h1>
+
+  <!-- Internship Cards -->
+  <div class="container">
+
+    <div class="card web">
+      <h3>🌐 Web Development Internship</h3>
+      <ul>
+        <li>📅 Duration: 1 month / 2 months</li>
+        <li>🌍 Location: Virtual</li>
+        <li>💰 Stipend: –</li>
+        <li>🚀 Start Date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com" class="btn">View Details</a>
+    </div>
+
+    <div class="card app">
+      <h3>📱 App Development Internship</h3>
+      <ul>
+        <li>📅 Duration: 1 month / 2 months</li>
+        <li>🌍 Location: Virtual</li>
+        <li>💰 Stipend: –</li>
+        <li>🚀 Start Date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com" class="btn">View Details</a>
+    </div>
+
+    <div class="card python">
+      <h3>🐍 Python Programming Internship</h3>
+      <ul>
+        <li>📅 Duration: 1 month / 2 months</li>
+        <li>🌍 Location: Virtual</li>
+        <li>💰 Stipend: –</li>
+        <li>🚀 Start Date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com" class="btn">View Details</a>
+    </div>
+
+    <div class="card java">
+      <h3>☕ Java Programming Internship</h3>
+      <ul>
+        <li>📅 Duration: 1 month / 2 months</li>
+        <li>🌍 Location: Virtual</li>
+        <li>💰 Stipend: –</li>
+        <li>🚀 Start Date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com" class="btn">View Details</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
